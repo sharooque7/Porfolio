@@ -1,0 +1,26 @@
+.footer_content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid white;
+  height: 4rem;
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 640px) {
+  .footer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 220px;
+    height: 10rem;
+  }
+}

@@ -20,10 +20,7 @@ export default function Main() {
         color: "white",
         backgroundRepeat: "no-repeat",
         backgroundColor: "rgba(17, 24, 39, 1)",
-        "&:hover": {
-          backgroundColor: "black",
-          opacity: [0.9, 0.8, 0.7],
-        },
+       
       }}
     >
       <div className={style.main_content}>
